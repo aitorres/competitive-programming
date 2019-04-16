@@ -12,22 +12,7 @@
  *          (@andresitorresm on Twitter)
  */
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <queue>
-#include <deque>
-#include <list>
-#include <stack>
-#include <set>
-#include <numeric>
-#include <limits>
-#include <time.h>
-#include <math.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
 
 #define FOR(i, j, k, in) for (int i=j ; i<k ; i+=in)
 #define RFOR(i, j, k, in) for (int i=j ; i>=k ; i-=in)
@@ -35,8 +20,8 @@
 #define RII(x, y) scanf("%i %i", &x, &y)
 #define RIII(x, y, z) scanf("%i %i %i", &x, &y, &z)
 #define PI(x) printf("%i\n", x)
-#define PII(x, y) scanf("%i %i\n", x, y)
-#define PIII(x, y, z) scanf("%i %i %i\n", x, y, z)
+#define PII(x, y) printf("%i %i\n", x, y)
+#define PIII(x, y, z) printf("%i %i %i\n", x, y, z)
 
 using namespace std;
 
